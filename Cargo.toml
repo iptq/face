@@ -5,7 +5,7 @@ authors = ["Michael Zhang <failed.down@gmail.com>"]
 
 [features]
 default = ["sfc"]
-sfc = ["haml", "quick-xml"]
+sfc = ["hamlrs", "quick-xml"]
 
 [target.'cfg(target_os = "linux")'.dependencies]
 gtk = "0.4"
@@ -17,4 +17,4 @@ winapi = "0.3"
 failure = "0.1"
 
 quick-xml = { version = "0.12", optional = true }
-haml = { version = "0.4", optional = true }
+hamlrs = { version = "0.4", optional = true }
